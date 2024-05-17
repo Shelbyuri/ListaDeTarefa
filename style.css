@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://media.istockphoto.com/id/509927696/pt/vetorial/lista-de-itens-por-fazer-motivo-homog%C3%A9neo-universal-fundo.jpg?s=612x612&w=0&k=20&c=Ps3IwOZuvPWpS2cm1x1cznKbg9jEyafCz12F4XZHWec=);
+    cursor: url('cursor-de-caneta.png'), auto;    
+
+}
+header{
+    color:rgb(0, 0, 0);
+    border: 10px solid rgb(10, 10, 10);
+  
+ }
+    main{
+        flex: auto;
+        padding: 6px;
+        border: 10px solid black;
+        text-align: center;
+    }
+    main ul{
+        padding: 0;
+    }
+    main li{
+        border-bottom: 1px solid black;
+        padding: 5px 0;
+    }
+    footer{
+        display: flex;
+        
+    }
+    footer input{
+        flex: auto;
+        padding: 5px;
+    }
