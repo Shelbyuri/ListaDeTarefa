@@ -8,8 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     background-image: url(https://media.istockphoto.com/id/509927696/pt/vetorial/lista-de-itens-por-fazer-motivo-homog%C3%A9neo-universal-fundo.jpg?s=612x612&w=0&k=20&c=Ps3IwOZuvPWpS2cm1x1cznKbg9jEyafCz12F4XZHWec=);
-    cursor: url('cursor-de-caneta.png'), auto;    
-
 }
 header{
     color:rgb(0, 0, 0);
